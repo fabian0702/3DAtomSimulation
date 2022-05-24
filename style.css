@@ -1,0 +1,115 @@
+.hidden {
+  z-index: -1;
+  position:relative;
+  left: 20px;
+  top: 30px;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+  border-color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+.picker {
+  z-index: 2;
+  position:absolute;
+  left: 15px;
+  top: 15px;
+  overflow: hidden;
+}
+.pickerText {
+  z-index: 2;
+  position:absolute;
+  left: 50px;
+  top: 5px;
+  overflow: hidden;
+}
+.rot {
+  z-index: 2;
+  position:absolute;
+  left: 20px;
+  top: 60px;
+  overflow: hidden;
+}
+.rotLab {
+  z-index: 2;
+  position:absolute;
+  left: 45px;
+  top: 59px;
+  overflow: hidden;
+}
+.speedLab {
+  z-index: 2;
+  position:absolute;
+  left: 30px;
+  top: 80px;
+  overflow: hidden;
+}
+.slider {
+  z-index: 2;
+  position:absolute;
+  left: 18px;
+  top: 115px;
+  overflow: hidden;
+}
+.nameLab {
+  z-index: 2;
+  position:absolute;
+  left: 30px;
+  top: 130px;
+  overflow: hidden;
+}
+.nameField {
+  z-index: 2;
+  position:absolute;
+  left: 18px;
+  top: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+.rect {
+  z-index: 1;
+  position:absolute;
+  left: 5px;
+  top: 5px;
+  overflow: hidden;
+}
+.shadow {
+  -webkit-filter: drop-shadow( 5px 5px 5px lighgray);
+  filter: drop-shadow( 5px 5px 5px lightgray);
+}
+.shadow2 {
+  height: 300pt;
+  -webkit-filter: drop-shadow( 0px 0px 0px black);
+  filter: drop-shadow( 0px 0px 0px black);
+}
+.setting {
+  z-index: 2;
+  display:none;
+  position:absolute;
+  left: 15px;
+  top: 15px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.upload {
+  z-index: 2;
+  position:absolute;
+  left: 18px;
+  top: 190px;
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+}
+.hiddenUpload {
+  z-index: -1;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+  border-color: #FFFFFF;
+  background-color: #FFFFFF;
+  z-index: 2;
+  position:absolute;
+  left: 18px;
+  top: 190px;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 40">
+    <defs>
+        <style>
+            .cls-1,
+            .cls-2{fill:#6dbdc9;stroke:#286f8e;stroke-miterlimit:10;stroke-width:.5px;}
+            .cls-3{font-size:9px;stroke-width:.5px;stroke: #0384a5;fill: #0384a5; font-family: Arial, 'Arial';}
+            .cls-3:hover{font-size:9px;stroke-width:.5px;stroke: white;fill: white; font-family: Arial, 'Arial';}
+            .cls-4{font-size:9px;stroke-width:0.15px;stroke: #0384a5;fill: #0384a5; font-family: Arial, 'Arial';}
+        </style>
+    </defs>
+    <rect class="cls-1" width="150" height="40"/>
+    <rect class="cls-2" x="3" y="3" width="144" height="34"/>
+    <text transform="translate(25 22.51)">
+        <tspan x="0" y="0" class="cls-3">Upload file</tspan>
+        <tspan x="45" y="0" class="cls-4"> or drag it here.</tspan>
+    </text>
+</svg>

@@ -1,0 +1,40 @@
+{
+    "atoms" : [
+        {
+            "symbol" : "C",
+            "id" : 0,
+            "connections" : [
+                1,
+                0,
+                0,
+                0
+            ],
+            "connectionTypes" : [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "symbol" : "H",
+            "id" : 1,
+            "connections" : [
+                0
+            ],
+            "connectionTypes" : [
+                1
+            ]
+        }
+    ],
+    "schema - can be removed in the real file" : {
+        "symbol" : "Symbol of the Atom",
+        "id" : "id of the Atom",
+        "connections" : [
+            "Connection to another Atom, put id of other Atom here"
+        ],
+        "connectionTypes" : [
+            "ConnectionType: 0 - dingle bond, 1 - double bond, 2 - tripple bond"
+        ]
+    }
+}
